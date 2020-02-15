@@ -177,5 +177,5 @@ export class CardVerticalExample extends React.Component<{}, {}> {
 }
 ReactDOM.render(
   <CardVerticalExample />,
-  document.querySelector('.abc00')
+  document.getElementById('root')
 );
