@@ -9,7 +9,7 @@ let adg = () => {
     };
 };
 //adg();
-timeSetout(adg, 10000);
+setTimeout(adg, 10000);
 
 let sb = document.getElementById("side-bar-button");
 let sm = document.getElementById("site-mask");
