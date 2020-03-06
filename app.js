@@ -1,4 +1,4 @@
-let adg = () => {
+window.onload = () => {
     let a = document.querySelector(".entry-header");
     let b = (a.clientWidth - 34) / 300;
     let c = document.querySelectorAll("div[id^='adg-slot']");
@@ -8,8 +8,6 @@ let adg = () => {
         d[i].style.transform = "scale(" + b + ")";
     };
 };
-//adg();
-setTimeout(adg, 10000);
 
 let sb = document.getElementById("side-bar-button");
 let sm = document.getElementById("site-mask");
