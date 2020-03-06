@@ -8,7 +8,8 @@ let adg = () => {
         d[i].style.transform = "scale(" + b + ")";
     };
 };
-adg();
+//adg();
+setTimeout(adg(), 5000);
 
 let sb = document.getElementById("side-bar-button");
 sb.onclick = sm.onclick = () => {
