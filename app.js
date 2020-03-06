@@ -1,3 +1,3 @@
 let a = "aria-expanded";
-let b = document.getElementById(a);
-b.onclick = () => {b.setAttribute(a, b.getAttribute(a) === "true" ? "false" : "true")};
+let bn = document.getElementById("side-bar-button");
+bn.onclick = () => {bn.setAttribute(a, bn.getAttribute(a) === "true" ? "false" : "true")};
