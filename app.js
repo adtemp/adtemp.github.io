@@ -9,7 +9,7 @@ let adg = () => {
     };
 };
 //adg();
-setTimeout(adg, 5000);
+setTimeout(adg, 10000);
 
 let sb = document.getElementById("side-bar-button");
 sb.onclick = sm.onclick = () => {
