@@ -10,7 +10,7 @@ sb.onclick = sm.onclick = () => {
         sm.style.zIndex = "-1";
         b2.style.right = "-100vw";
     } else {
-        bd.overflow = "hidden";
+        bd.style.overflow = "hidden";
         sb.setAttribute(a, "true");
         sm.style.zIndex = "1";
         b2.style.right = "0";
