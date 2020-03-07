@@ -4,7 +4,7 @@ window.onload = () => {
     let c = document.querySelectorAll("div[id^='adg-slot']");
     let d = document.querySelectorAll("iframe[id^='adg-slot']");
     for(let i = 0; i < c.length; i++) {
-        c[i].style.marginBottom = (b - 1) * 140 + "%";
+        c[i].style.marginBottom = (b - 1) * 130 + "%";
         d[i].style.transform = "scale(" + b + ")";
     };
 };
