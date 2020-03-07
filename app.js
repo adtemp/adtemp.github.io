@@ -1,14 +1,3 @@
-window.onload = () => {
-    let a = document.querySelector(".entry-header");
-    let b = (a.clientWidth - 34) / 300;
-    let c = document.querySelectorAll("div[id^='adg-slot']");
-    let d = document.querySelectorAll("iframe[id^='adg-slot']");
-    for(let i = 0; i < c.length; i++) {
-        c[i].style.marginBottom = (b - 1) * 130 + "%";
-        d[i].style.transform = "scale(" + b + ")";
-    };
-};
-
 let sb = document.getElementById("side-bar-button");
 let sm = document.getElementById("site-mask");
 sb.onclick = sm.onclick = () => {
@@ -26,4 +15,24 @@ sb.onclick = sm.onclick = () => {
         sm.style.zIndex = "1";
         b2.style.right = "0";
     }
+};
+
+let tt = document.getElementById("theme-toggle");
+tt.onclick = () => {
+    if(tt.getAttribute("checked") === "true") {
+        tt.setAttribute("checked", "false");
+    } else {
+        tt.setAttribute("checked", "true");
+    }
+}
+
+window.onload = () => {
+    let a = document.querySelector(".entry-header");
+    let b = (a.clientWidth - 34) / 300;
+    let c = document.querySelectorAll("div[id^='adg-slot']");
+    let d = document.querySelectorAll("iframe[id^='adg-slot']");
+    for(let i = 0; i < c.length; i++) {
+        c[i].style.marginBottom = (b - 1) * 140 + "%";
+        d[i].style.transform = "scale(" + b + ")";
+    };
 };
