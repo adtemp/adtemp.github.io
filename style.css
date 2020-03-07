@@ -54,7 +54,7 @@ img {
   position: absolute;
   transform-origin: center;
   width: 16px;
-  transition: all 86ms ease-out;
+  transition: all 0.2s ease-out;
 }
 #side-bar-button span:first-child {
   top: calc(50% - 6px);
@@ -162,7 +162,7 @@ iframe[id^="adg-slot-wrapper"] {
   align-items: center;
   padding: 0px 3px;
   outline: transparent;
-  transition: all 0.1s ease;
+  transition: all 0.2s ease;
   border-radius: 10px;
   border: 1px solid #605e5c;
   background: #ffffff;
@@ -173,7 +173,7 @@ iframe[id^="adg-slot-wrapper"] {
   height: 12px;
   background-color: #605e5c;
   border-radius: 50%;
-  transition: all 0.1s ease;
+  transition: all 0.2s ease;
   border: 0.28em solid transparent;
 }
 #theme-toggle[switch="on"] {
@@ -195,7 +195,7 @@ iframe[id^="adg-slot-wrapper"] {
     bottom: 0;
     right: -100vw;
     background-color: #f9fafb;
-    transition: all .1s ease;
+    transition: all 0.2s ease;
     overflow: auto;
     z-index: 2;
     scrollbar-width: none;
