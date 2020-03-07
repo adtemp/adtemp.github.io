@@ -180,7 +180,7 @@ iframe[id^="adg-slot-wrapper"] {
   justify-content: flex-end;
   background: #2899f5;
 }
-#theme-toggle[switch="off"] span {
+#theme-toggle span {
   background-color: #1b1a19l
 }
 
