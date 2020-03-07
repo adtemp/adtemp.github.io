@@ -22,7 +22,8 @@ body,
 .entry {
   border-color: #171717;
 }
-a {
+a,
+.pager a {
   color: #e3e3e3;
 }
 .date a,
