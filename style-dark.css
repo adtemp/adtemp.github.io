@@ -216,7 +216,8 @@ iframe[id^="adg-slot"] {
     top: 37px;
     bottom: 0;
     right: -100vw;
-    background-color: #f9fafb;
+    /*background-color: #f9fafb;*/
+    background-color: #2e2e2e;
     transition: all .1s ease;
     overflow: auto;
     z-index: 2;
