@@ -5,13 +5,13 @@ sb.onclick = sm.onclick = () => {
     let bd = document.querySelector("body");
     let b2 = document.getElementById("box2");
     if(sb.getAttribute(a) === "true") {
-        bd.style.overflow = "auto";
         sb.setAttribute(a, "false");
+        bd.style.overflow = "auto";
         sm.style.zIndex = "-1";
         b2.style.right = "-100vw";
     } else {
-        bd.style.overflow = "hidden";
         sb.setAttribute(a, "true");
+        bd.style.overflow = "hidden";
         sm.style.zIndex = "1";
         b2.style.right = "0";
     }
@@ -19,12 +19,15 @@ sb.onclick = sm.onclick = () => {
 
 let tt = document.getElementById("theme-toggle");
 tt.onclick = () => {
-    if(tt.getAttribute("checked") === "true") {
-        tt.setAttribute("checked", "false");
+    let tm = document.getElementById("theme");
+    if(tt.getAttribute("switch") === "on") {
+        tt.setAttribute("switch", "off");
+        tm.setAttribute("href", "https://adtemp.github.io/style.css");
     } else {
-        tt.setAttribute("checked", "true");
+        tt.setAttribute("switch", "on");
+        tm.setAttribute("href", "https://adtemp.github.io/style-dark.css");
     }
-}
+};
 
 window.onload = () => {
     let a = document.querySelector(".entry-header");
