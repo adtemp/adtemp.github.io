@@ -9,34 +9,6 @@ html {
 body::-webkit-scrollbar {
   display: none;
 }
-/*
-body.dark,
-#box2.dark,
-#footer.dark,
-#box2.dark form,
-#box2.dark input {
-  color: #e3e3e3;
-  background-color: #171717;
-}
-.entry.dark {
-  border-color: #171717;
-}
-a.dark {
-  color: #e3e3e3
-}
-.date a.dark,
-#footer a.dark {
-  color: #c7c7c7;
-}
-.entry.dark,
-.urllist-item.dark:hover,
-#side-bar-button.dark:hover {
-  background-color: #2e2e2e;
-}
-.page-index .entry.dark:hover {
-  background-color: #43526d;
-}
-*/
 
 .entry-footer-section,
 .page-index .content-main,
@@ -204,11 +176,11 @@ iframe[id^="adg-slot-wrapper"] {
   transition: all 0.1s ease;
   border: 0.28em solid transparent;
 }
-#theme-toggle[checked="true"] {
+#theme-toggle[switch="on"] {
   justify-content: flex-end;
   background: #2899f5;
 }
-#theme-toggle span[checked="true"] {
+#theme-toggle span[switch="off"] {
   background-color: #1b1a19l
 }
 
