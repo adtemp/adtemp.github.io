@@ -1,3 +1,11 @@
+/* <system section="theme" selected="smooth"> */
+@import "/css/theme/smooth/smooth.css";
+/* </system> */
+
+/* <system section="background" selected="undefined"> */
+
+/* </system> */
+
 * {
   font-family: "Yu Gothic UI", "SF Pro JP", Arial, sans-serif !important;
 }
@@ -10,38 +18,34 @@ body::-webkit-scrollbar {
   display: none;
 }
 
-body {
-  background-color: black !important;
-}
-
-/*
-body.dark,
-#box2.dark,
-#footer.dark,
-#box2.dark form,
-#box2.dark input {
+body,
+.entry,
+#box2,
+#footer,
+#box2 form,
+#box2 input,
+#side-bar-button span {
   color: #e3e3e3;
   background-color: #171717;
 }
-.entry.dark {
+.entry {
   border-color: #171717;
 }
-a.dark {
-  color: #e3e3e3
+a {
+  color: #e3e3e3;
 }
-.date a.dark,
-#footer a.dark {
+.date a,
+#footer a {
   color: #c7c7c7;
 }
-.entry.dark,
-.urllist-item.dark:hover,
-#side-bar-button.dark:hover {
+.entry-inner,
+.urllist-item:hover,
+#side-bar-button:hover {
   background-color: #2e2e2e;
 }
-.page-index .entry.dark:hover {
+.page-index .entry-inner:hover {
   background-color: #43526d;
 }
-*/
 
 .entry-footer-section,
 .page-index .content-main,
@@ -57,7 +61,8 @@ a.dark {
 }
 
 img {
-  max-width: 100%:
+  max-width: 100%;
+  filter: grayscale(30%);
 }
 
 @media screen and (min-width: 768px) {
@@ -126,32 +131,21 @@ iframe[id^="adg-slot"] {
   transform-origin: 0 0;
   transform: scale(.6);
 }
-/*
-div[id^="adg-slot-wrapper"] {
-    position: relative !important;
-    width: 100% !important;
-    height: 0 !important;
-    padding-top: 83% !important;
-}
-iframe[id^="adg-slot-wrapper"] {
-  position: absolute !important;
-  top: 0 !important;
-  left: 0 !important;
-  width: 100% !important;
-  height: 100% !important;
-}*/
 
 .page-index article.entry {
   box-shadow: 0 1.6px 3.6px 0 rgba(0, 0, 0, 0.132), 0 0.3px 0.9px 0 rgba(0, 0, 0, 0.108);
   padding: 0;
 }
-.page-index article.entry:hover {
+.page-index article.entry {
   background-color: #fafafa;
 }
+
+/*
 .urllist-item:hover,
 #side-bar-button:hover {
   background-color: rgba(0,0,0,0.02);
 }
+*/
 
 .page-index .entry-header,
 .page-index .entry-title,
