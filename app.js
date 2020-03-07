@@ -21,11 +21,13 @@ let tt = document.getElementById("theme-toggle");
 tt.onclick = () => {
     let tm = document.getElementById("theme");
     if(tt.getAttribute("switch") === "on") {
-        tt.setAttribute("switch", "off");
         tm.setAttribute("href", "https://adtemp.github.io/style.css");
+        tt.setAttribute("switch", "off");
+        document.cookie = "theme=light";
     } else {
-        tt.setAttribute("switch", "on");
         tm.setAttribute("href", "https://adtemp.github.io/style-dark.css");
+        tt.setAttribute("switch", "on");
+        document.cookie = "theme=dark";
     }
 };
 
