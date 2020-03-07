@@ -33,6 +33,7 @@ a:hover {
 .entry-inner,
 .entry,
 .leave-comment-title,
+.pager a,
 .urllist-item:hover,
 #side-bar-button:hover {
   background-color: #2e2e2e !important;
