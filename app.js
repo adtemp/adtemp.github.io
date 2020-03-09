@@ -23,11 +23,11 @@ tt.onclick = () => {
     if(tt.getAttribute("switch") === "on") {
         tm.setAttribute("href", "https://adtemp.github.io/style.css");
         tt.setAttribute("switch", "off");
-        document.cookie = "theme=light;domain=test87.hatenablog.com";
+        document.cookie = "theme=light;domain=hatenablog.com";
     } else {
         tm.setAttribute("href", "https://adtemp.github.io/style-dark.css");
         tt.setAttribute("switch", "on");
-        document.cookie = "theme=dark;domain=test87.hatenablog.com";
+        document.cookie = "theme=dark;domain=hatenablog.com";
     }
 };
 
