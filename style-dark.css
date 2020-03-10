@@ -19,6 +19,12 @@ body,
   color: #e3e3e3;
   background-color: #171717;
 }
+form,
+input,
+textarea {
+  color: #e3e3e3;
+  background-color: #2e2e2e;
+}
 .entry {
   border-color: #171717;
 }
@@ -35,9 +41,6 @@ a:hover {
 .entry,
 .leave-comment-title,
 .pager a,
-form,
-input,
-textarea,
 .urllist-item:hover,
 #side-bar-button:hover {
   background-color: #2e2e2e !important;
