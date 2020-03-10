@@ -1,4 +1,4 @@
 document.getElementById("submit-button").onclick = () => {
-    document.myForm.submit();
+    document.myform.submit();
     document.querySelector(".content-main").style.display = "none";
 };
