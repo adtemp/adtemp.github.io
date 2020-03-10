@@ -13,12 +13,11 @@ body::-webkit-scrollbar {
 body,
 #box2,
 #footer,
-form,
-input,
-textarea,
+#box2 form,
+#box2 input,
 #side-bar-button span {
-  color: #e3e3e3 !important;
-  background-color: #171717 !important;
+  color: #e3e3e3;
+  background-color: #171717;
 }
 .entry {
   border-color: #171717;
@@ -36,6 +35,9 @@ a:hover {
 .entry,
 .leave-comment-title,
 .pager a,
+form,
+input,
+textarea,
 .urllist-item:hover,
 #side-bar-button:hover {
   background-color: #2e2e2e !important;
