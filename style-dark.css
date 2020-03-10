@@ -16,8 +16,8 @@ body,
 form,
 input,
 #side-bar-button span {
-  color: #e3e3e3;
-  background-color: #171717;
+  color: #e3e3e3 !important;
+  background-color: #171717 !important;
 }
 .entry {
   border-color: #171717;
