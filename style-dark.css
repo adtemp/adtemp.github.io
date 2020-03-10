@@ -13,8 +13,8 @@ body::-webkit-scrollbar {
 body,
 #box2,
 #footer,
-#box2 form,
-#box2 input,
+form,
+input,
 #side-bar-button span {
   color: #e3e3e3;
   background-color: #171717;
