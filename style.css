@@ -32,7 +32,6 @@ img {
     display: none;
   }
 }
-
 #side-bar-button {
   position: absolute;
   padding: 0;
@@ -225,4 +224,14 @@ iframe[id^="adg-slot-wrapper"] {
 
 nav li + li::before {
   content: "｜";
+}
+
+form,
+input,
+textarea {
+  margin: 0 auto;
+  width: 100%;
+}
+form div + div {
+  margin-top: 1em;
 }
