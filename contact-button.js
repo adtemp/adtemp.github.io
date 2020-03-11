@@ -1,5 +1,11 @@
 document.getElementById("submit-button").onclick = () => {
-    document.myform.submit();
-    //document.querySelector(".content-main").style.display = "none";
-    //document.getElementById("thxMessage").style.display = "block";
+    //document.myform.submit();
+    let ip = document.querySelectorAll("input");
+    for(let i = 0; i < ip.length; i++) {
+        if(ip[i].checkValidity() === false) {
+            return false;
+        }
+    }
+    document.querySelector(".content-main").style.display = "none";
+    document.getElementById("thxMessage").style.display = "block";
 };
