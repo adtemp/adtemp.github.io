@@ -1,6 +1,6 @@
 document.getElementById("submit-button").onclick = () => {
     //document.myform.submit();
-    let ip = document.querySelectorAll("input");
+    let ip = document.querySelectorAll(".input");
     for(let i = 0; i < ip.length; i++) {
         if(ip[i].checkValidity() === false) {
             return false;
