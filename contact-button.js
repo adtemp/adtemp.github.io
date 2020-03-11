@@ -1,4 +1,4 @@
-document.getElementById("submit-button").addEventListener("click", () => {
+document.getElementById("submit-button").onclick = () => {
     //document.myform.submit();
     let ip = document.querySelectorAll("input");
     for(let i = 0; i < ip.length; i++) {
@@ -8,4 +8,4 @@ document.getElementById("submit-button").addEventListener("click", () => {
     }
     document.querySelector(".content-main").style.display = "none";
     document.getElementById("thxMessage").style.display = "block";
-});
+};
